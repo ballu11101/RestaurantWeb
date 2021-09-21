@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Be+Vietnam&family=Be+Vietnam+Pro:wght@500&family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(243, 243, 243);
+}
+.side-bar{
+    width: 320px;
+    height: 100vh;
+    text-align: center;
+    padding-left: 70px;
+    padding-top: 50px;
+}
+
+.side-bar .top-head h2{
+    font-size: 40px;
+    display: flex;
+    margin-right: 40px;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 500;
+}
+
+del{
+    text-decoration-color: red;
+}
+
+
+.side-bar .nav-links a{
+    display: inline-block;
+    display: flex;
+    padding-top: 50px;
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(160, 160, 160);
+    font-family: 'Be Vietnam', sans-serif;
+}
+
+.side-bar .button-red button{
+    font-size: 16px;
+    border: none;
+    padding: 14px 50px;
+    margin-top: 60px;
+    margin-right: 110px;
+    background: rgb(238, 47, 47);
+    color: #fefefe;
+    border-radius: 40px;
+}
+
+.container{
+    position: relative;
+    
+}
+.main-content{
+    padding-top: 140px;
+}
+.main-content .top-line h1{
+    font-size: 80px;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 5px;
+    font-weight: 500;
+}
+
+.main-content .side-para p{
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 150px;
+    font-family: 'Be Vietnam', sans-serif;
+    
+    
+}
+
+
+
+.main-content .side-para hr{
+    margin-left: 150px;
+    margin-top: 22px;
+    height:2.5px; width: 20%;
+     border-width:0; 
+     color:red; 
+     background-color:red;
+}
+
+
+.flex{
+    display: flex;
+}
+
+img{
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+.top-products{
+ position: absolute;
+ top:58%;
+ left:18%;
+}
+
+
+.container .main-content .top-products .card1{
+    position: relative;
+    width: 200px;
+    height: 260px;
+    background: rgb(255, 255, 255);
+    margin-left: 50px;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow:0px 20px 50px -20px ;
+
+}
+
+.container .main-content .top-products .card2,.card3,.card4,.card5{
+    position: relative;
+    width: 200px;
+    height: 260px;
+    background: rgb(255, 255, 255);
+    margin-left: 50px;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow:0px 20px 50px -20px ;
+}
+
+.container .main-content .top-products img{
+    margin-top: 30px;
+    border-radius: 100%;
+}
+
+h4{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'Be Vietnam Pro', sans-serif; 
+    font-weight: 1000;
+}
